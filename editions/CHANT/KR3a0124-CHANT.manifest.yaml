@@ -1,0 +1,34 @@
+canonical_identifier: bkk:krp/KR3a0124/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR3a0124/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 袁子正書一卷
+  identifiers:
+    krp: KR3a0124
+  tags:
+    kr-categories: KR3a
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR3a0124.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 1, filename: KR3a0124_001-CHANT.yaml, hash: 'sha256:e6865cfb54c624980bfe5d3b85a1bb19ebb4aafab74298966df910159eb00658'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR3a0124_001-CHANT.markers.yaml, hash: 'sha256:52dfd5ba09b270ac667ebca03493e53ce7a31edfb4428302a432d4bbc062ff4d'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR3a0124_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 1443
+  label: 袁子正書
+  type: section
+  level: 1
+hash: sha256:b8b069db002c301f8c870b6c22fd5fe9dcaf2449c2369e0140032e55396a6b25
